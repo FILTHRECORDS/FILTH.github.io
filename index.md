@@ -1,37 +1,111 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filth</title>
+  <style>
+  * {
+  box-sizing: border-box;
+}
 
-You can use the [editor on GitHub](https://github.com/FILTHRECORDS/FILTH.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+body {
+  width: 100%;
+  height: 1500px;
+  background-image: url('https://live.staticflickr.com/65535/50946464071_10f374a41a_h.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 25px 25px;
+  text-decoration: none;
+  font-size: 25px;
+}
 
-```markdown
-Syntax highlighted code block
+.topnav a:hover {
+  background-color: gray;
+  color: white;
+}
 
-# Header 1
-## Header 2
-### Header 3
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
 
-- Bulleted
-- List
+.dropdown .dropbtn {
+  color: white;
+  background-color:black;
+  text-align: center;
+  padding: 25px 25px;
+  text-decoration: none;
+  font-size: 25px;
+}
 
-1. Numbered
-2. List
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color:gray;
+}
 
-**Bold** and _Italic_ and `Code` text
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 25px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
 
-[Link](url) and ![Image](src)
-```
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+.dropdown-content a:hover {
+  background-color: gray;
+}
 
-### Jekyll Themes
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/FILTHRECORDS/FILTH.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+.topnav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</style>
+<header>
+<div class="topnav" id="myTopnav">
+<a href="index.html">HOME</a>
+<a href="merchandise.html">MERCH</a>
+<div class="dropdown">
+  <button class="dropbtn">ROSTER</button>
+    <div class="dropdown-content">
+      <a href="https://dogdied.bandcamp.com/">Dogdied</a>
+      <a href="https://goodbyeheretic.bandcamp.com/releases">Goodbye Heretic</a>
+      <a href="https://intjthreat.bandcamp.com/track/what-to-avoid-when-making-a-dating-profile">INTJ threat</a>
+      <a href="https://kiroku.bandcamp.com/album/storm-heaven-ep">Kiroku</a>
+      <a href="https://wormhero.bandcamp.com/">Worm Hero</a>
+      <a href="https://yanguro.bandcamp.com/">Yangire</a>
+      <a href="https://elat0nic.bandcamp.com/">€L@T0NiC</a>
+    </div>
+</div>
+</div>
+</header>
+</body>
+</html>
